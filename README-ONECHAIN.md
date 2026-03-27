@@ -1,7 +1,7 @@
 # ⛓️ OUT OF JAIL 808347
 ### *AI Confession Quest on ONE Chain*
 
-> **"Cell 808347. Your truth is the only way out."**
+> "Cell 808347. Your truth is the only way out."
 
 | 🎮 Live MVP | https://echoesoftheheroes.com |
 |------------|-------------------------------|
@@ -123,22 +123,36 @@ Your confession = your controller.
 
 ---
 
-### **Technical Implementation:**
+## 🛠️ TECHNICAL IMPLEMENTATION (ONEHACK 3.0)
 
-**AI Architecture:**
-- **ElevenLabs Conversational AI** (real-time voice)
-- **Custom CBT-aligned prompts** (Cognitive Behavioral Therapy frameworks)
-- **Sentiment analysis** (honesty vs deception detection)
-- **Multi-session memory** (tracks player growth across sessions)
-- **Zero human intervention** per session
+### **OneWallet Integration**
+**Current Status:** Basic OneWallet connection successfully demonstrated (testnet)
 
-**Autonomous Behaviors:**
-1. **Judges confession authenticity** in real-time
-2. **Gates progression** based on emotional honesty (not keywords)
-3. **Triggers NFT minting** on ONE Chain autonomously
-4. **Issues soulbound Progress Passports** (roadmap)
-5. **Personalizes difficulty** based on wallet history (roadmap)
+**Implemented functionality:**
+- Clear "Connect OneWallet" button with visual feedback
+- Display of connected wallet address
+- Seamless transition from wallet connection to the confession session with Noemi
+- Graceful demo mode for hackathon submission
 
+**Why this matters:**
+OneWallet serves as the player's on-chain identity and the entry point to the progression system. 
+Once connected, the player can engage in meaningful confession with autonomous AI agent Noemi and receive tangible proof of their emotional journey.
+
+**Next immediate step (post-submission):**
+Full NFT minting of Memory Capsules and Season Pass purchase on OneChain.
+
+---
+
+### **On-Chain Elements (Memory Capsules & Season Pass)**
+**Approach:**
+- Memory Capsules and Season Pass will be issued as NFTs on OneChain
+- Player progress and confession outcomes will be recorded on-chain for true ownership
+- AI agent Noemi triggers on-chain actions based on emotional honesty evaluation
+
+**Current demo state:**
+The full gameplay loop (cinematic → Creature message → Noemi confession) is fully functional.  
+Wallet connection is working. NFT minting and Season Pass flow are demonstrated as a working demo. 
+Full on-chain deployment is ready to be activated immediately after the hackathon.
 ---
 
 ### **Why This Matters for AI & GameFi Track:**
@@ -250,6 +264,23 @@ Emotional flow intact ✅
   ]
 }
 ```
+**Status:** Basic wallet connection demonstrated (testnet)
+
+**What was implemented:**
+- OneWallet / HashPack connection button
+- Address display after successful connection
+- Graceful fallback to demo mode if wallet is not available
+- Visual feedback for the player ("PRISONER VERIFIED", "ACCESS GRANTED")
+
+**Technical notes:**
+- Used `@onelabs/dapp-kit` + manual fallback for stability
+- Due to tight hackathon timeline, full NFT minting and Season Pass purchase are shown as demo
+- Full on-chain integration (Memory Capsule mint + Season Pass) is prepared and will be completed immediately after submission
+
+**Why this matters for OneHack:**
+We demonstrate the critical first step of player identification on OneChain while keeping the core emotional gameplay (confession with Noemi) fully functional.
+
+Full NFT + payment flow is planned as the next immediate step post-hackathon.
 
 **Tiers (Planned):**
 - **Memory Capsule** ($7) — Single level + track
@@ -425,8 +456,8 @@ Emotional flow intact ✅
 ## 👤 TEAM
 
 **Solo Founder:** Mike (Mikhail Klementev)  
-**Location:** Kirovsk, Russia  
-**Timezone:** GMT+3
+**Location:** Tbilisi, Georgia  
+**Timezone:** GMT+4
 
 ### **Background:**
 - **7 years** building this universe
@@ -453,10 +484,10 @@ Deep personal connection to mental wellness themes. 7 years of creative vision r
 
 ### **Videos:**
 🎬 **Cinematic Teaser:** https://vimeo.com/1144530154  
-🎮 **Gameplay Demo:** https://vimeo.com/1175993576
+🎮 **Gameplay Demo:** https://drive.google.com/file/d/1TPaTOKHJiPMzQglUHQylNJsVsi-I0jmC/view?usp=sharing
 
 ### **Code:**
-📂 **GitHub Repo:** [link after setup]
+📂 **GitHub Repo:** 
 
 ### **Social:**
 🐦 **Twitter/X:** [@outofjail808347]  
@@ -574,8 +605,3 @@ MIT License - See LICENSE file for details.
 
 *Cell 808347 is waiting.* ⛓️
 
----
-
-**Last Updated:** March 27, 2026  
-**Hackathon:** OneHack 3.0 AI-GameFi 2026  
-**Status:** Submitted for judging ✅
